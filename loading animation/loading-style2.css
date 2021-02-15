@@ -1,0 +1,36 @@
+.contrainer {
+  width: 100%;
+}
+.curculo {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  border: 5px solid #47c4ee;
+}
+
+.dom-holder {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  animation: loaddom 1.5s linear infinite;
+}
+
+.dom {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #47c4ee;
+}
+
+@keyframes loaddom {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

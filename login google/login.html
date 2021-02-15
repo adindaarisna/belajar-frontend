@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="material-components-web.min.css" rel="stylesheet">
+    <script src="material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="login-wrap">
+        <div class="login-box">
+            <div class="elemen-login">
+                <div class="mdc-tab-bar" role="tablist">
+                    <div class="mdc-tab-scroller">
+                        <div class="mdc-tab-scroller__scroll-area">
+                            <div class="mdc-tab-scroller__scroll-content">
+                                <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+                                    <span class="mdc-tab__content">
+                                        <span class="mdc-tab__text-label"><h2>Login</h2></span>
+                                    </span>
+                                    <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                                    </span>
+                                    <span class="mdc-tab__ripple"></span>
+                                </button>
+                                <button class="mdc-tab mdc-tab" role="tab" aria-selected="true" tabindex="0">
+                                    <span class="mdc-tab__content">
+                                        <span class="mdc-tab__text-label"><h2>Sign Up</h2></span>
+                                    </span>
+                                    <span class="mdc-tab-indicator mdc-tab-indicator">
+                                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                                    </span>
+                                    <span class="mdc-tab__ripple"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elemen-login">
+                <div class="mdc-text-field mdc-text-field--outlined">
+                    <input class="mdc-text-field__input" id="text-field-hero-input">
+                    <div class="mdc-notched-outline">
+                        <div class="mdc-notched-outline__leading"></div>
+                        <div class="mdc-notched-outline__notch">
+                            <label for="text-field-hero-input" class="mdc-floating-label">Usename</label>
+                        </div>
+                        <div class="mdc-notched-outline__trailing"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="elemen-login">
+                <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-trailing-icon">
+                    <span class="mdc-notched-outline">
+                        <span class="mdc-notched-outline__leading"></span>
+                        <span class="mdc-notched-outline__notch">
+                            <span class="mdc-floating-label" id="my-label-id">Password</span>
+                        </span>
+                        <span class="mdc-notched-outline__trailing"></span>
+                    </span>
+                    <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+                    <i class="material-icons mdc-text-field__icon mdc-text-field__icon--trailing">visibility</i>
+                </label>
+            </div>
+            <div class="elemen-login">
+                <label class="mdc-text-field mdc-text-field--outlined">
+                    <span class="mdc-notched-outline">
+                        <span class="mdc-notched-outline__leading"></span>
+                        <span class="mdc-notched-outline__notch">
+                            <span class="mdc-floating-label" id="my-label-id">Password</span>
+                        </span>
+                        <span class="mdc-notched-outline__trailing"></span>
+                    </span>
+                    <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+                </label>
+            </div>
+            <div class="elemen-login">
+                <button class="mdc-button mdc-button--raised"> <span class="mdc-button__ripple"></span> Sign In</button>        
+            </div>
+
+            
+
+            
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

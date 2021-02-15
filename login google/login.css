@@ -1,0 +1,41 @@
+@use "@material/floating-label/mdc-floating-label";
+@use "@material/line-ripple/mdc-line-ripple";
+@use "@material/notched-outline/mdc-notched-outline";
+@use "@material/textfield";
+
+@include textfield.core-styles;
+
+@use "@material/tab-bar/mdc-tab-bar";
+@use "@material/tab-scroller/mdc-tab-scroller";
+@use "@material/tab-indicator/mdc-tab-indicator";
+@use "@material/tab/mdc-tab";
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.login-wrap{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.login-box{
+    min-width: 300px;
+    min-height: 300px;
+    background: lightgrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #187ef3;
+    padding: 40px;
+}
+
+.elemen-login{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
